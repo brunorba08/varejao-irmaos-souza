@@ -7,7 +7,7 @@
  */
 function openWhatsApp() {
   const phoneNumber = '5512999999999' // Número do WhatsApp (altere para o número correto)
-  const message = 'Olá! Gostaria de fazer um pedido'
+  const message = 'Olá! Gostaria de fazer um pedido vim pelo site'
   const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
     message
   )}`
